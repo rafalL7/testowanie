@@ -21,5 +21,6 @@ public class NowyUserTest {
     @After
     public void tearDown() {
        System.out.println("It works");
+       System.out.flush();
     }
 }
