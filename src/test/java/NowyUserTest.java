@@ -7,10 +7,9 @@ public class NowyUserTest {
 
     @Test
     public void testInit(){
-        NowyUser user = new NowyUser();
+        NowyUser user = new NowyUser("Patrycja","Salsa");
         user.setName("Rafał Sarnecki");
-        String name;
-        name = user.getName();
+        String name = user.getName();
         System.out.println(name);
     }
 
